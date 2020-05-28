@@ -63,3 +63,21 @@ body{
     background: green;
 }
 
+.highlight{
+    background: khaki;
+}
+
+.is-dragging{
+    background: lightgreen;
+    cursor: move;
+    opacity: 0.3;
+}
+
+.over{
+    background: lime;
+}
+
+.card, .dropzone {
+    transition: 0.3s;
+}
+
