@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <title>Kanban</title>
 </head>
+
 <body>
     <div class="boards">
         <div class="board">
-            <h3></h3>
-            <div class="dropzone card">
-                <div class="status content"></div>
+            <h3>ToDo</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status white"></div>
+                    <div class="content">
+                        First
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>In Progress</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status yellow"></div>
+                    <div class="content">
+                        First
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>Done</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status green"></div>
+                    <div class="content">
+                        First
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>

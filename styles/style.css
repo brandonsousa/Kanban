@@ -1,0 +1,65 @@
+html{
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.boards{
+    display: flex;
+    margin-top: 20px;
+}
+
+.board{
+    background-color: #141316;
+    border: 1px solid #fd951fcc;
+    border-radius: 4px;
+    margin: 0 16px;
+}
+
+.board h3{
+    padding: 6px;
+    margin: 0;
+    color: #fd951fcc;
+    font-family: sans-serif;
+}
+
+.dropzone{
+    padding: 16px;
+    min-width: 280px;
+    min-height: 220px;
+}
+
+.card{
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px teal;
+    width: 250px;
+    margin: 25px 0;
+    background: #1a1a1c;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.status{
+    width: 30px;
+    height: 10px;
+    background: teal;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.status.white{
+    background: white;
+}
+
+.status.yellow{
+    background: yellow;
+}
+
+.status.green{
+    background: green;
+}
+
